@@ -1,6 +1,7 @@
 import { Theme } from 'vitepress'
 import { VPTheme, Config as ThemeConfig } from '@vue/theme'
 import { MenuItemChildWithChildren, MenuItemWithLink } from '@vue/theme'
+import './styles/index.css'
 
 import Layout from './components/Layout.vue'
 import Home from './components/Home.vue'
