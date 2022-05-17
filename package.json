@@ -1,0 +1,53 @@
+{
+  "name": "vitepress-theme-vue",
+  "version": "1.0.0-alpha.0",
+  "description": "VitePress theme base on @vue/theme",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./config": "./src/core/config.ts",
+    "./highlight": "./src/core/highlight.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "author": "Alex Wei",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex8088/vitepress-theme-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alex8088/vitepress-theme-vue/issues"
+  },
+  "homepage": "https://github.com/alex8088/vitepress-theme-vue#readme",
+  "keywords": [
+    "vitepress",
+    "theme",
+    "vue"
+  ],
+  "scripts": {
+    "lint": "prettier --write --parser typescript \"{playground,src}/**/*.ts\"",
+    "dev": "vitepress dev playground",
+    "serve": "vitepress build playground && vitepress serve playground"
+  },
+  "dependencies": {
+    "@vue/theme": "^1.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "typescript": "~4.3.5",
+    "vitepress": "^0.22.4",
+    "vue": "^3.2.33"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "react",
+        "react-dom",
+        "@types/react"
+      ]
+    }
+  }
+}
