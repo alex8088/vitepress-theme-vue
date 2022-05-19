@@ -11,20 +11,19 @@ VitePress theme base on [@vue/theme](https://github.com/vuejs/theme), more pract
 
 - Remove hard-coded, make it easy to use
 - Refine style, more nice
+- Support deploying under nested public path(with base)
 - Home page support
 - More practical components
 
-## Screenshot
-
 ## Usage
 
-### Install
-
 ```
-npm i vitepress-theme-vue -D
+npm i vitepress-theme-vue
 ```
 
 ## Documentation
+
+Check out [documentation](https://alex8088.github.io/vitepress-theme-vue/)
 
 ## Powered By
 
