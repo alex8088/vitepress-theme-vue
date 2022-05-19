@@ -5,12 +5,14 @@ import './styles/index.css'
 
 import Layout from './components/Layout.vue'
 import Home from './components/Home.vue'
+import Tag from './components/Tag.vue'
 
 const VPVTheme: Theme = {
   ...VPTheme,
   Layout,
   enhanceApp({ app }) {
     app.component('Home', Home)
+    app.component('Tag', Tag)
   }
 }
 

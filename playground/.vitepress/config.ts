@@ -19,7 +19,8 @@ const themeGroupItems = [
 ]
 
 const componentGroupItems = [
-  { text: 'Home', link: '/guide/home-component' }
+  { text: 'Home', link: '/guide/home-component' },
+  { text: 'Tag', link: '/guide/tag-component' }
 ]
 
 const guideSidebar: SidebarGroup[] = [
