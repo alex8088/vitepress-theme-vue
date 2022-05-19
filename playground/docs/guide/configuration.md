@@ -59,3 +59,13 @@ export default defineConfigWithTheme<ThemeConfig>({
 })
 
 ```
+
+And, you need to add a `*.d.ts` declaration file to define the `vitepress-theme-vue/config` module.
+
+```ts
+declare module 'vitepress-theme-vue/config' {
+  import { UserConfig } from 'vitepress'
+  const config: () => Promise<UserConfig>
+  export default config
+}
+```
