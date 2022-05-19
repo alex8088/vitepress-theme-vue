@@ -6,7 +6,6 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "allowJs": true,
     "strict": true,
     "jsx": "preserve"
   },

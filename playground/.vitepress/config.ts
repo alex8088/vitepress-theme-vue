@@ -5,7 +5,8 @@ import {
   MultiSidebarConfig,
   NavItem
 } from '../../src/index'
-import baseC from '../../src/core/config'
+// @ts-ignore
+import baseC from '../../src/config'
 
 const guideGroupItems = [
   { text: 'Introduction', link: '/guide/introduction' },
@@ -37,11 +38,11 @@ const nav: NavItem[] = [
   {
     text: 'Guide',
     items: [
-      { text: 'Guide', items: guideGroupItems},
+      { text: 'Guide', items: guideGroupItems },
       { text: 'Theme', items: themeGroupItems },
       { text: 'Components', items: componentGroupItems }
     ],
-    activeMatch: `^/guide/`,
+    activeMatch: `^/guide/`
   },
   {
     text: 'Links',

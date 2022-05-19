@@ -1,7 +1,6 @@
-import type { UserConfig as VitePressConfig } from 'vitepress'
-import baseConfig from '@vue/theme/config'
+const baseConfig = require('@vue/theme/config')
 
-export default async (): Promise<VitePressConfig> => {
+module.exports = async () => {
   const config = await baseConfig()
   config.vite?.optimizeDeps?.exclude?.push('vitepress-theme-vue')
   if (config.head) {
