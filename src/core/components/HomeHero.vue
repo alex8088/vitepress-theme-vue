@@ -31,7 +31,7 @@ const heroText = computed(() => frontmatter.value.heroText || site.value.title)
       <a
         :class="[{ primary: index === 0 || button.primary }, button.extraClass]"
         :style="button.extraStyle"
-        :href="button.link"
+        :href="withBase(button.link)"
         :target="button.target"
         v-for="(button, index) in frontmatter.actionButtons"
       >
