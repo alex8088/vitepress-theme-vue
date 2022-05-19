@@ -1,19 +1,44 @@
-.VPSidebar:hover::-webkit-scrollbar {
-  display: block;
-}
+@media (min-width: 576px) {
+  .VPSidebar:hover::-webkit-scrollbar {
+    display: block;
+  }
 
-.VPSidebar::-webkit-scrollbar {
-  display: none;
-  width: 10px;
-  background: transparent;
-}
+  .VPSidebar::-webkit-scrollbar {
+    display: none;
+    width: 10px;
+    background: transparent;
+  }
 
-.VPSidebar::-webkit-scrollbar-thumb {
-  background: var(--vt-c-text-4) content-box;
-  border: 2px solid transparent;
-  border-radius: 5px;
-}
+  .VPSidebar::-webkit-scrollbar-thumb {
+    background: var(--vt-c-text-4) content-box;
+    border: 2px solid transparent;
+    border-radius: 5px;
+  }
 
-.VPSidebar::-webkit-scrollbar-thumb:hover {
-  background: var(--vt-c-text-3) content-box;
+  .VPSidebar::-webkit-scrollbar-thumb:hover {
+    background: var(--vt-c-text-3) content-box;
+  }
+
+  .vt-doc [class*='language-'] {
+    padding: 6px;
+  }
+
+  .vt-doc [class*='language-'] pre {
+    padding: 8px 18px;
+  }
+
+  .vt-doc [class*='language-'] pre::-webkit-scrollbar {
+    height: 6px;
+    background: transparent;
+  }
+
+  .vt-doc [class*='language-'] pre::-webkit-scrollbar-thumb {
+    background: var(--vt-c-text-inverse-3) content-box;
+    border: 0px solid transparent;
+    border-radius: 3px;
+  }
+
+  .vt-doc [class*='language-'] pre::-webkit-scrollbar-thumb:hover {
+    background: var(--vt-c-text-inverse-2) content-box;
+  }
 }
