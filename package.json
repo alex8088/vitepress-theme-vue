@@ -1,6 +1,6 @@
 {
   "name": "vitepress-theme-vue",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0",
   "description": "VitePress theme base on @vue/theme",
   "main": "src/index.ts",
   "exports": {
