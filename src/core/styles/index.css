@@ -42,3 +42,26 @@
     background: var(--vt-c-text-inverse-2) content-box;
   }
 }
+
+body::-webkit-scrollbar-thumb {
+  background: var(--vt-c-text-4) content-box;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--vt-c-text-3) content-box;
+}
+
+.VPApp .VPLocalNav {
+  top: var(--vt-banner-height, -1px);
+}
+
+.VPContentDoc .container .content {
+  flex: 1;
+}
