@@ -23,6 +23,8 @@ export default {
 
 Full list of slots available in the theme layout:
 
+- `navbar-icon`
+- `navbar-title`
 - `navbar-search`
 - `sidebar-top`
 - `sidebar-bottom`

@@ -1,4 +1,4 @@
-# introduction
+# Introduction
 
 The **VitePress-Theme-Vue** base on [@vue/theme](https://github.com/vuejs/theme)
 
